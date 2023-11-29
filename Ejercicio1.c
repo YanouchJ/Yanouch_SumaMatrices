@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
         }
     }
     
-    printf("MATRIZ B\n");
+    printf("\nMATRIZ B\n");
     printf("Ingrese el numero de filas: ");
     scanf("%d", &fB);
     printf("Ingrese el numero de columnas: ");
@@ -35,6 +35,10 @@ int main(int argc, char const *argv[])
             scanf("%d", &MatrizB[i][j]);
         }
     }
+    //printf("%d", MatrizB[fB][cB]);
+     //printf("%d", MatrizA[fA][cA]);
+
+    
 
     return 0;
 }
